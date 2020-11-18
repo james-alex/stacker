@@ -1,0 +1,25 @@
+name: stacker
+description: >-
+  A collection of 3 widgets that stack their children, displaying a
+  single child at a time, transitioning between children when a different
+  child is displayed.
+
+  Stacker can be used modularly as a component, to drive single-page apps,
+  or to control multi-step flows within a widget or page.
+version: 0.1.0
+homepage: https://github.com/james-alex/stacker
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fade_and_translate: ^0.1.2
+  provider: ^4.3.2+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.9.0

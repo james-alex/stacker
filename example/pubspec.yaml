@@ -1,0 +1,22 @@
+name: stacker_example
+description: The example project for the stacker package.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_color_models: ^0.3.3+1
+  modular_menu:
+    path: ../../modular_menu
+  stacker:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
